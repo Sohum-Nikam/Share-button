@@ -77,7 +77,7 @@
                          </g>
                          </g>
                      </svg>
-                </label><a class="btn btn-1" href="chatbox.html"><i class="fa fa-comments"></i></a><a class="btn btn-1"                                 href="share.html"><div id="panel"><i class="fa fa-share"></i></div></a>
+                        </label><a class="btn btn-1" href="chatbox.html"><i class="fa fa-comments"></i></a><a class="btn btn-1"                                href="share.html"><div id="panel"><i class="fa fa-share"></i></div></a>
 
             </div>
         </div>
