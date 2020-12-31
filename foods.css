@@ -1,0 +1,64 @@
+/* <- demo stuff  start */
+
+body{
+    font-family:'abel', sans-serif;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 11vw;
+    margin: 0 auto;
+    min-height: 10vw;
+    position: relative;
+}
+
+.btn{
+    flex: 1 1 auto;
+    margin: 10px;
+    font-size:40px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text shadow: 0px 0px  10px  rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px rgb(105, 105, 105);
+    border-radius: 300px;
+}
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover{
+    background-position:right-center;
+    background: #fbd5a4 radial-gradient(circle, transparent 1%, #fbd5a4 1%) center/15000%;
+    /* change the direction of the change here */
+}
+
+.ripple:active{
+    background-color: #ffb95e;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.btn-1{
+    background-image:linear-gradient(to right,#f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.btn-2{
+    background-image:linear-gradient(to right,#f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.btn-3{
+    background-image:linear-gradient(to right,#dfdfdf 0%, #1dd8e9 51%, #dfdfdf 100%);
+}
+
+
+/* Magic Stuff End -> */
