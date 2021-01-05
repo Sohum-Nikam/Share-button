@@ -1,0 +1,524 @@
+#showcase-1{
+    background-color:#fff;
+    box-sizing:border-box;
+    border-style: dashed;
+    border-color:gray;
+    border-radius: 10px;
+    border-width: 3px;
+    height:240px;
+    padding:2px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.main{
+    background-color:white;
+    border-style:solid;
+    border-color:darkgray;
+    border-width:3px;
+    height: 30px;
+    padding-bottom: 20px;
+    padding:20px;
+}
+
+body{
+    font-family: 'Abel';
+    background-color: white;
+    background-image:url('images/chopping.jpg');
+    color:white;
+}
+
+.cola{
+    background-image:linear-gradient(to right,#f8cf46 0%, #ff7b57 51%, #f8cf46 100%);
+    color:white;
+    animation-delay: 4s;
+    padding: 10px 13px 10px 16px;
+	font-size:28px;
+}
+
+#main-content{
+    padding-left:10px;
+    font-size:30px;
+}
+
+#main a{
+    font-size:22px;
+}
+
+h1{
+    margin: 0;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid red;
+    background: #ff0;
+}
+.hid-box{
+    top: 100px;
+    position: relative;
+    transition: all .3s ease-out;
+    background: #428bca;
+    height: 100%;
+}
+.box:hover > .hid-box{
+    top:0;
+}
+
+/* like.css */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: arial;
+  }
+  
+  #main-content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    color: #888888;
+  }
+  
+  a {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #008A68;
+  }
+  
+  svg {
+    cursor: pointer;
+    overflow: visible;
+    width: 60px;
+  }
+  svg #heart {
+    transform-origin: center;
+    animation: animateHeartOut 0.3s linear forwards;
+  }
+  svg #main-circ {
+    transform-origin: 29.5px 29.5px;
+  }
+  
+  #checkbox {
+    display: none;
+  }
+  
+  #checkbox:checked + label svg #heart {
+    transform: scale(0.2);
+    fill: #E2264D;
+    animation: animateHeart 0.3s linear forwards 0.25s;
+  }
+  #checkbox:checked + label svg #main-circ {
+    transition: all 2s;
+    animation: animateCircle 0.3s linear forwards;
+    opacity: 1;
+  }
+  #checkbox:checked + label svg #grp1 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp1 #oval1 {
+    transform: scale(0) translate(0, -30px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp1 #oval2 {
+    transform: scale(0) translate(10px, -50px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp2 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp2 #oval1 {
+    transform: scale(0) translate(30px, -15px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp2 #oval2 {
+    transform: scale(0) translate(60px, -15px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp3 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp3 #oval1 {
+    transform: scale(0) translate(30px, 0px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp3 #oval2 {
+    transform: scale(0) translate(60px, 10px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp4 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp4 #oval1 {
+    transform: scale(0) translate(30px, 15px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp4 #oval2 {
+    transform: scale(0) translate(40px, 50px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp5 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp5 #oval1 {
+    transform: scale(0) translate(-10px, 20px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp5 #oval2 {
+    transform: scale(0) translate(-60px, 30px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp6 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp6 #oval1 {
+    transform: scale(0) translate(-30px, 0px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp6 #oval2 {
+    transform: scale(0) translate(-60px, -5px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp7 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp7 #oval1 {
+    transform: scale(0) translate(-30px, -15px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp7 #oval2 {
+    transform: scale(0) translate(-55px, -30px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp2 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp3 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp4 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp5 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp6 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp7 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  
+  @keyframes animateCircle {
+    40% {
+      transform: scale(10);
+      opacity: 1;
+      fill: #DD4688;
+    }
+    55% {
+      transform: scale(11);
+      opacity: 1;
+      fill: #D46ABF;
+    }
+    65% {
+      transform: scale(12);
+      opacity: 1;
+      fill: #CC8EF5;
+    }
+    75% {
+      transform: scale(13);
+      opacity: 1;
+      fill: transparent;
+      stroke: #CC8EF5;
+      stroke-width: 0.5;
+    }
+    85% {
+      transform: scale(17);
+      opacity: 1;
+      fill: transparent;
+      stroke: #CC8EF5;
+      stroke-width: 0.2;
+    }
+    95% {
+      transform: scale(18);
+      opacity: 1;
+      fill: transparent;
+      stroke: #CC8EF5;
+      stroke-width: 0.1;
+    }
+    100% {
+      transform: scale(19);
+      opacity: 1;
+      fill: transparent;
+      stroke: #CC8EF5;
+      stroke-width: 0;
+    }
+  }
+  @keyframes animateHeart {
+    0% {
+      transform: scale(0.2);
+    }
+    40% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes animateHeartOut {
+    0% {
+      transform: scale(1.4);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* foods.css */
+
+  /* <- demo stuff  start */
+
+body{
+    font-family:'abel', sans-serif;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 11vw;
+    margin: 0 auto;
+    min-height: 10vw;
+    position: relative;
+}
+
+.btn{
+    flex: 1 1 auto;
+    margin: 10px;
+    font-size:40px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text shadow: 0px 0px  10px  rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px rgb(105, 105, 105);
+    border-radius: 300px;
+}
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover{
+    background-position:right-center;
+    background: #fbd5a4 radial-gradient(circle, transparent 1%, #fbd5a4 1%) center/15000%;
+    /* change the direction of the change here */
+}
+
+.ripple:active{
+    background-color: #ffb95e;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.btn-1{
+    background-image:linear-gradient(to right,#f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.btn-2{
+    background-image:linear-gradient(to right,#f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.btn-3{
+    background-image:linear-gradient(to right,#dfdfdf 0%, #1dd8e9 51%, #dfdfdf 100%);
+}
+
+
+/* Magic Stuff End -> */
+
+
+/* share.css */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+.challenge {
+  width: 541px;
+  height: 22px;
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  top: 569.5px;
+  left: 755px;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+.challenge .number {
+  float: right;
+}
+.challenge .daily {
+  float: left;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.content {
+  width: 800px;
+  height: 600px;
+  background-image:linear-gradient(to bottom right, #f8cf46 0%, #ff7b57 100%);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.content .shareButton.main .share, .content .shareButton.main .close, .content .shareButton.main .check {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+}
+.content .shareButton.main .share, .content .shareButton.main.open .close, .content .shareButton.main.sent .check {
+  -webkit-transform: rotate(0) scale(1);
+          transform: rotate(0) scale(1);
+  opacity: 1;
+}
+.content .shareButton.main .close, .content .shareButton.main.open .share, .content .shareButton.main .check, .content .shareButton.main.sent .share {
+  opacity: 0;
+  -webkit-transform: rotate(90deg) scale(0);
+          transform: rotate(90deg) scale(0);
+}
+
+.shareButton, .shareButton.open {
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  padding: 1rem;
+  overflow: hidden;
+  outline: none;
+  margin: 0.5rem;
+  width: 24px;
+  height: 24px;
+  box-sizing: content-box;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  position: relative;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+.shareButton:hover, .shareButton.open:hover {
+  -webkit-transform: scale(1.1) translateY(-3px);
+          transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+/*.shareButton:active, .shareButton.open:active {
+  
+} */
+.shareButton svg, .shareButton.open svg {
+  display: block;
+  fill: #f66816;
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.fb, .shareButton.open.ig {
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.tw, .shareButton.open.tw {
+  -webkit-transition-delay: 50ms;
+          transition-delay: 50ms;
+}
+
+.ig, .shareButton.open.fb {
+  -webkit-transition-delay: 0ms;
+          transition-delay: 0ms;
+}
+
+.fb, .tw, .ig {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.fb svg, .tw svg, .ig svg {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
